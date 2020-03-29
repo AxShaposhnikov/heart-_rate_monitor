@@ -5,11 +5,13 @@
     .header {
         justify-content: space-around;
     }
+    
     .promo {
         &__wrapper {
             align-items: center;
         }
     }
+
     .advantages {
         &__icons {
             flex-direction: column;
@@ -18,6 +20,7 @@
         }
         
     }
+
     .container {
         width: 768px;
     }
@@ -49,6 +52,7 @@
             }
         }
     }
+
     .container {
         width: 576px;
     }
@@ -99,7 +103,7 @@
             margin-top: 67px;
         }
     }
-    .headers {
+    .title {
         font-size: 24px;
     }
     .advantages {
