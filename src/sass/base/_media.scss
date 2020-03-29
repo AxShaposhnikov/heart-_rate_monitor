@@ -1,0 +1,112 @@
+@media ( max-width: 1200px ) {
+
+}
+@media ( max-width: 991px ) {
+    .header {
+        justify-content: space-around;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .advantages {
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        
+    }
+    .container {
+        width: 768px;
+    }
+}
+@media ( max-width: 767px ) {
+    .header {
+        justify-content: space-around;
+        &__logo {
+            width: 150px;
+            
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                display: block;
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        .button {
+            width: 125px;
+            height: 25px;
+            font-size: 11;
+            &_main {
+                width: 300px;
+                height: 40px;
+            }
+        }
+    }
+    .container {
+        width: 576px;
+    }
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+    }
+}
+@media ( max-width: 575px ) {
+    .container {
+       width: 320px;
+    }
+
+    .header {
+        justify-content: space-around;
+        &__logo {
+            width: 150px;
+            
+        }
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+        &__icons {
+            width: 300px;
+        }
+        &__icon {
+            width: 88px;
+            font-size: 11px;
+        }
+    }
+    .button {
+        &_main {
+            width: 246px;
+            height: 45px;
+            font-size: 14px;
+            margin-top: 67px;
+        }
+    }
+    .headers {
+        font-size: 24px;
+    }
+    .advantages {
+        &__icon {
+            span {
+                margin: 5px 0 8px 0;
+            }
+        }
+    }
+}
